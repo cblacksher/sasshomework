@@ -1,0 +1,40 @@
+$radius: 15px;
+$dark: #2C3E50;  
+$red: #E74C3C;  
+$white: #ECF0F1;  
+$mid: #3498DB;  
+$light: #2980B9;
+$fontstack: helvetica, sans-serif;
+
+.box { 
+	-webkit-border-radius: $radius;  
+	-moz-border-radius: $radius;  
+	-ms-border-radius: $radius;  
+	border-radius: $radius;  
+}
+
+*, *:before, *:after { box-sizing: inherit;}
+
+html { background-color:#35465c; box-sizing: border-box;}
+
+body {width: 70%; margin: 20px auto;}  
+
+body img {width:70%; margin: 5px auto;}
+
+header h1 { font-family: Helvetica, Sans-serif; color: $white; font-size:72px; padding:5px;}
+
+header h2 { color:$white; font-family: serif; font-size:12pt;}
+
+nav ul li {float:left; padding:20px; background-color:$light; margin: 10px 20px 30px 40px; border-radius:$radius; font-family:$fontstack; decoration:none;}
+
+nav ul li a {text-decoration:none; color:$dark; font-size: 15pt; font-weight:bold;}
+
+section h1 {clear:left; color: $red; background-color:$white; font-size:40px; border-radius:$radius; padding-left: 15px; font-family:$fontstack;}
+
+article { background-color: $light; padding: 10px; border-radius:$radius; margin: 20px; font-family: $fontstack; color: $white;}
+
+article h2 {color: $white; font-family: $fontstack;}
+
+footer h1, h2 { color: $white; size:10px;}
+
+footer nav ul li { color:$white;}
